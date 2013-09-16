@@ -1,0 +1,58 @@
+/*
+	HANDHELD CSS
+    Less advanced mobile devices will use the media type="screen" (mainly targeting Windows IE Mobile).
+    All other (presumably more advanced) browsers will recognize media type="Screen" (note the capital S), and use that, as well.
+    This leaves IE Mobile (and most likely other, more limited, handheld devices) to use the handheld.css file.
+    
+    OTHER NOTES
+    Since this is for the mobile site, we'll use percentages as much as possible.
+    Percentages are used for widths, mainly. However, for heights, 'px' is used
+    because the flow of the page won't be negatively effected.
+    (As a side note, 4.5% equals roughly 15px, and 2.5% equals roughly 8px.)
+    Font-sizes will be in 'em.' 
+    Margin (bottoms and tops) and padding (bottoms and tops) will be in 'px.'
+    Line-heights are set to be multipliers of the element's font-size.
+*/
+
+/// Landscape phones and down
+@media only screen and (max-device-width:480px){
+	body { font-size: 75%; position: relative; font-family: Arial; color: #3c3c3c; background-color: #ffffff; }
+	h1 { }
+	h2 { color: #3c3c3c; font: normal 2em/1em Georgia; padding: 0 4.5%; margin: 10px 0 0; }
+	h3 { color: #3c3c3c; font-size: 1.4em; line-height: 1.13; font-weight: bold; padding: 0 4.5%; }
+	h4 { color: #3c3c3c; font-size: 1.2em; line-height: 1.416; margin-top: 20px; padding: 0 4.5%; }
+	p { font-size: 1.2em; line-height: 1.425; padding: .25em 4.5% 0; }
+	/*a { font: normal 12px/16px Arial; color: #00693F; }*/
+	ul, ol { }
+	ul li,
+	ol li {}
+	ul li.last,
+	ol li.last,
+	li:last-child { border: 0; }
+	ul li a,
+	ol li a { }
+	.overflow{overflow:hidden;}
+	.clear{clear:both;}
+	
+	body#landing{	
+/*		h1 {
+			text-align:right !important;
+		}*/
+	}
+	body#interior{
+		h1{
+			text-align:left !important;
+			font-size:1.7em !important;
+		}
+		
+		li a{
+			width:50px !important;
+			height:50px !important;
+			border-radius:25 !important;
+			line-height:45px !important;
+			font-weight:700 !important;
+		}
+		
+		article img{width:98%; max-width:320px;}
+	}
+}

@@ -1,0 +1,293 @@
+html, body, div, span, applet, object, iframe, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+
+body {
+background:#FFF;
+text-align:left;
+color:#000;
+font-size:17px;
+font-family:"BebasRegular", Courier, monospace;
+margin:0;
+padding:0;
+height:600px;
+}
+
+@font-face {
+	font-family: "BebasRegular";
+	src: url("fonts/'bebas___-webfont.eot'");
+	src: local('☺'), 
+		url("fonts/bebas___-webfont.woff") format("woff"), 
+		url("fonts/bebas___-webfont.ttf") format("truetype"), 
+		url("fonts/bebas___-webfont.svg#webfontclKAez8W") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+	
+#logo {
+position: fixed;
+margin: 20px 0 0 150px;
+z-index:500;
+}
+
+#logot {
+	position:absolute;
+	top:30px 0 30px 10px;
+	padding-left:45px;
+	margin-top:-15px;
+}
+#logoh {
+text-align:center;
+margin: 70px 0 0 10px;
+}
+
+#logoth {
+	top:30px 0 0 10px;
+	text-align:center;
+	margin-top:10px;
+}
+	
+a {
+color:#000;
+padding: 0 5px;
+text-decoration: none;
+font-family: "BebasRegular", Courier, monospace;
+font-size: 20px;
+letter-spacing:1px;
+}
+
+a:selected {
+color:#C30;
+padding: 0 5px;
+text-decoration: none;
+font-family:"BebasRegular", Courier, monospace;
+font-size: 20px;
+letter-spacing:1px;
+}
+
+a:hover {
+color:#6CC;
+padding: 0 5px;
+text-decoration: none;
+font-family: "BebasRegular", Courier, monospace;
+font-size: 20px;
+letter-spacing:1px;
+}
+
+h2 {
+font-size: 24px;
+font-family: "BebasRegular", Courier, monospace;
+padding:0;
+letter-spacing:.5px;
+}
+
+h3 {
+font-size:14px;
+font-family: "Courier New", Courier, monospace;
+color:#000;
+margin:0;
+padding:0;
+}
+
+p {
+color:#000;
+font-size: 15px;
+font-family: "Courier New", Courier, monospace;
+padding: 0 0 5px;
+margin: 0;
+}
+
+#menu {
+background:#6CC;
+position: fixed;
+top: 120px;
+left: 0;
+clear: both;
+float:left;
+font-family: "BebasRegular", Courier New, Courier, monospace;
+font-size: 11px;
+margin: 5px 5px 5px 0;
+padding: 5px;
+z-index: 500;
+}
+
+#menu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#menu ul li{
+list-style-type: none;
+color: #777;
+display: inline;
+margin: 0;
+padding: 0 10px 0 10px;
+}
+
+#menu ul li a{
+text-decoration: none;
+list-style-type: none;
+color:#EEE;
+display: inline;
+margin: 0;
+padding: 0;
+}
+
+#menu ul li a:hover{
+text-decoration: none;
+list-style-type: none;
+color:#45718B;
+display: inline;
+margin: 0;
+padding: 0;
+}
+
+
+#menu ul li a:selected{
+	color:#C30;
+}
+
+#container {
+position: relative;
+top: 180px; left: 40px;
+width: 9600px;
+height:700px;
+margin: 0;
+padding: 0;
+}
+
+.box {
+border: 1px dashed #222222;
+width: 500px;
+height:500px;
+float: left;
+line-height: 22px;
+margin: 30px 0 0 0;
+padding: 5px 30px 30px 30px;
+}
+
+.box1 {
+border: 1px dashed #222222;
+width: 2800px;
+height:600px;
+float: left;
+padding: 5px 0 0 10px;
+}
+
+.box2 {
+border: 1px dashed #222222;
+width: 1700px;
+height:600px;
+float: left;
+padding: 5px 0 0 10px;
+}
+
+.box3 {
+border: 1px dashed #222222;
+width: 870px;
+height:600px;
+float: left;
+padding: 5px 0 0 10px;
+}
+
+.box5 {
+border: 1px dashed #222222;
+width: 1100px;
+height:600px;
+float: left;
+padding: 5px 0 0 10px;
+}
+.box6 {
+border: 1px dashed #222222;
+width: 1500px;
+height:600px;
+float: left;
+padding: 5px 0 0 10px;
+}
+.box7 {
+border: 1px dashed #222222;
+width: 1500px;
+height:600px;
+float: left;
+padding: 5px 0 0 10px;
+}
+
+.boxy {
+	width:700px;
+	height:600px;
+	float:left;
+}
+
+.boxy1 {
+	width:700px;
+	height:600px;
+	float:left;
+	margin-top:-35px;
+}
+
+.sboxy {
+	width:250px;
+	height:500px;
+	float:left;
+}
+/*------------------------------------------- photography --------------------------*/
+
+#pcontainer {
+position: absolute;
+top: 180px; left: 40px;
+width: 10000px;
+height:600px;
+margin: 0;
+padding: 0;
+}
+
+.boxyp {
+	width:400px;
+	height:500px;
+	float:left;
+}
+
+.boxp1 {
+border: 1px dashed #222222;
+width: 4200px;
+height: 500px;
+float: left;
+padding: 5px 30px 30px 30px;
+}
+.boxp2 {
+border: 1px dashed #222222;
+width: 3100px;
+height:500px;
+float: left;
+padding: 5px 30px 30px 30px;
+}
+.boxp3 {
+border: 1px dashed #222222;
+width: 2400px;
+height:500px;
+float: left;
+padding: 5px 30px 30px 30px;
+}
+<!----------------------------------------about------------------------->
+
+.boxypa {
+	width:600px;
+	height:600px;
+	float:left;
+}
+#acontainer {
+position: absolute;
+top: 180px; left: 40px;
+width: 500px;
+height:600px;
+margin: 0;
+padding: 0;
+}

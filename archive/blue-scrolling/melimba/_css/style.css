@@ -1,0 +1,63 @@
+/*Landing /////////////////////////////////////////////////////////*/
+
+body#landing {	background: red url('../_images/patterns/world/anchors.png') repeat;}
+body#landing #welcome{background:white; margin:0 auto; margin-top:50px; width:400px; height:400px;}
+
+
+/*General /////////////////////////////////////////////////////////*/
+
+#wrapper{width:100%; height:100%; display:block;}
+#header #logo {float:right; margin-top:50px; margin-bottom:20px;}
+p{font-family:"MuseoSlab500", Georgia, Helvetica, sans-serif; font-size:12px;}
+
+/*Navigation /////////////////////////////////////////////////////////*/
+
+
+.column-1{width:10%; margin-left:25px;float:left;}
+#content {margin-top:50px;}
+	#content #nav ul a {font-family:"MuseoSlab500", Georgia, Helvetica, sans-serif; text-transform:uppercase; text-decoration:none; font-size:14px; line-height:30px; color:black; }
+	#content #nav ul a:hover {color:#879c9e; }
+	#content #nav ul li{padding:0 0 0 5px;}
+ 		li.current {background: url('../_images/select.png') no-repeat;}
+		a.current {color:white !important;}
+
+	#content #nav ul {text-align:left;}
+	#nav{ margin-top:50px;}
+
+/*Swatch Pages /////////////////////////////////////////////////////////*/
+
+.border {border:8px solid #f7f7f7;}
+
+.column {position:relative; width:40%; float:right; margin:15px 15px;}
+	.column img{margin-bottom:30px; text-align:center;}
+
+.clearer{clear:both;}
+
+
+.paragraph{font-family:"MuseoSlab500", Georgia, Helvetica, sans-serif; width:75%; margin-bottom:15px; line-height:15px; }
+	.paragraph a{color:#67797a;}
+
+h1{font-family:"MuseoSlab500", Georgia, Helvetica, sans-serif; line-height:20px;}
+
+
+@font-face {
+    font-family: 'MuseoSlab500';
+    src: url('../_fonts/museo_slab_500-webfont.eot');
+	src: url('../_fonts/museo_slab_500-webfont.eot?#iefix') format('embedded-opentype'), 
+		url('../_fonts/museo_slab_500-webfont.woff') format('woff'), 
+		url('../_fonts/museo_slab_500-webfont.ttf') format('truetype'), 
+		url('../_fonts/museo_slab_500-webfont.svg#MuseoSlab500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSlab500Italic';
+    src: url('../_fonts/museo_slab_500italic-webfont.eot');
+    src: url('../_fonts/museo_slab_500italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/museo_slab_500italic-webfont.woff') format('woff'),
+         url('../_fonts/museo_slab_500italic-webfont.ttf') format('truetype'),
+         url('../_fonts/museo_slab_500italic-webfont.svg#MuseoSlab500Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

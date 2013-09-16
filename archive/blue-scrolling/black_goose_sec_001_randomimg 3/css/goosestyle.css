@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+/** {
+   border: 1px solid red !important;
+}
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+@font-face {
+	font-family: 'StMarieThin';
+	src: url('fonts/stmarie-thin-webfont.eot');
+	src: local('☺'), url('fonts/stmarie-thin-webfont.woff') format('woff'), url('fonts/stmarie-thin-webfont.ttf') format('truetype'), url('fonts/stmarie-thin-webfont.svg#webfont6dQFT4dT') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background:url(images/bkgrnd_pattern2.png) repeat-x;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#333;
+	line-height:1.5em;
+}
+
+p {
+	margin-bottom:1em;	
+}
+
+#container {
+	width:960px;
+	margin:0 auto;
+	position: relative;
+/*	border: 1px solid red !important;
+*/}
+
+#header {
+	height:120px;
+	width:960px;
+/*	border: 1px solid red !important;
+*/}
+
+#header p{
+	float:right;
+	width:300px;
+	font:italic .9em Georgia, "Times New Roman", Times, serif;
+	margin: 66px 0 0 0;
+	color:#888;
+}
+
+h1 {
+	color:#330000;
+	font-size:2em;
+	background:url(../images/black_goose_header_new.png) no-repeat;	
+	width:584px;
+	height:97px;
+	text-indent:-1000em;
+	position:absolute;
+	left:0;
+	top:5px;
+}
+
+h1 a {
+	width:584px;
+	height:97px;
+	display:block;
+/*	background-color:#F00;
+*/}
+
+h2 {
+	font: small-caps 2em StMarieThin, "Times New Roman", Times, serif bold;
+	letter-spacing:1px;
+	text-transform:lowercase;
+	text-align:center;
+	padding: .6em 0;
+}
+
+h3 {
+	background:url(../images/zagat_rated2.png) no-repeat;
+	text-indent:-1000em;
+	width:94px;
+	height:94px;
+	position:absolute;
+	right:10px;
+	top:70px;
+}
+
+em {
+	color:#900;	
+}
+
+ul {
+	padding-left:2em;
+	line-height:1.4em;
+}
+
+.contentlist li {
+ 	list-style-image:url(../images/goose_bullet.png);
+}
+
+ul#globalnav {
+	position:absolute;
+	top: 105px;
+	left:58px;
+	overflow:hidden;
+	zoom: 1;
+}
+
+ul#globalnav li{
+	float:left;
+	margin: 0 3px 0 0;
+}
+
+ul#globalnav li a {
+	display:block;
+	width:155px;
+	background-color:#1E0732;
+	text-align:center;
+	text-transform:lowercase;
+	font: small-caps bold 15px Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+	color:#fff;
+	letter-spacing:.1em;
+	padding:5px 0;
+	border: 1px #1E0732 solid;
+}
+
+ul#globalnav li a:hover {
+	background-color:#606;
+	border: 1px #606 solid;
+	color:#fff;
+}
+
+ul#globalnav li .selected {
+	background-color:#fff;
+	border: 1px #1E0732 solid;
+	color:#1E0732;
+}
+
+
+.leftcol {
+	float:left;
+	margin: 50px 0 40px 10px;
+	width:600px;
+/*	border: 1px solid red !important;
+*/}
+
+.rightcol {
+	float:right;
+	margin:50px 0 0 0;
+	width:300px;
+/*	border: 1px solid red !important;
+*/}
+
+
+
+#footer {
+	clear:both;
+	border-top:1px dashed black;
+}
+
+#footer p{
+	font-size:.7em;
+	text-align:center;
+}
+
+/*#burst3 {
+position:absolute;
+top:10px;
+z-index:100;
+}
+
+#burst4 {
+position:absolute;
+top:50px;
+z-index:50;
+}
+
+#burst5 {
+position:absolute;
+top:100px;
+}*/
+
+img {
+	border: 1px solid white;	
+}

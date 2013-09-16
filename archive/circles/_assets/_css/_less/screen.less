@@ -1,0 +1,222 @@
+@import "reset";
+@import "mobile";
+
+p, h1, h2, h3, h4, h5, h6, ul{
+	font-family: 'Montserrat', sans-serif;
+}
+
+p{line-height:1.3;}
+
+body#landing{
+	background:url('../_images/square_bg.png') repeat;
+	
+	.container{
+		margin:5% 5%;
+		
+			h1{
+				text-transform:uppercase;
+				font-size:2em;	
+				font-weight:700;
+				text-align:left;	
+			}
+	}
+	
+	.line{
+		width:3px;
+		height:25px;
+	}
+	
+	ul#nav{
+		margin:0 auto;
+	}
+	
+	
+	li a{
+		display:block;
+		width:100px;
+		height:100px;
+		border-radius:50px;
+		color:#fff;
+		line-height:100px;
+		text-align:center;
+		text-decoration:none;
+		background:#000;
+		margin:1%;
+		float:left;
+	}
+	
+		a.blue {
+			background-color:lightblue;
+		}	
+			.blue:hover{
+				background-color:#9CC2CF;
+				}
+		a.salmon {
+			background-color:lightsalmon;
+		}
+			.salmon:hover{
+				background-color:#E6906E;
+			}
+		a.coral {
+			background-color:lightcoral;
+		}
+			.coral:hover{
+				background-color:#D87373;
+			}
+		a.gold {
+			background-color:gold;
+		}
+			.gold:hover{
+				background-color:#E6C200;
+			}
+		a.teal {
+			background-color:teal;
+		}
+			.teal:hover{
+				background-color:#005A5A;
+			}
+		
+		a.green {
+			background-color:yellowgreen;
+		}
+			.green:hover{
+				background-color:#8BB82D;
+			}
+			
+		a.purple {
+			background-color:#800080;
+		}
+			.purple:hover{
+				background-color:#660066;
+			}
+			
+		a.azul {
+			background-color:#486BAB;
+		}
+			.azul:hover{
+				background-color:#405F98;
+			}
+ 
+}
+
+body#interior{
+	
+		background:url('../_images/square_bg.png') repeat;
+		
+	.container{
+		margin:5% 5%;
+		
+			h1{
+				text-transform:uppercase;
+				font-size:2em;	
+				font-weight:700;
+				text-align:left;		
+			}
+			h1 a{
+				text-decoration:none;
+				color:#000000;
+			}
+	}
+	
+	#nav li a{
+		display:block;
+		width:75px;
+		height:75px;
+		border-radius:37px;
+		color:#fff;
+		line-height:75px;
+		text-align:center;
+		text-decoration:none;
+		background:#000;
+		margin-left:1.5%;
+		float:right;
+	}
+	
+	span.green {
+			color:yellowgreen;
+		}
+	span.teal {
+			color:teal;
+		}
+	span.gold {
+			color:gold;
+		}
+	span.coral {
+			color:lightcoral;
+		}
+	span.salmon {
+			color:lightsalmon;
+		}
+	span.blue {
+			color:lightblue;
+		}
+	span.purple{
+			color:#800080;
+	}	
+	span.azul{
+			color:#5077BE;
+		}
+		
+	article img{max-width:700px; max-height:800px;/*width:90%;*/margin-bottom:2%; text-align:center;}
+	
+		.video{
+			height:0;
+			padding-top:30px;
+			padding-bottom:56.25%; /* 16/9 ratio */
+			position:relative;
+			overflow:hidden;
+		}
+		
+		.video iframe{
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+		}
+	
+	.interior{ line-height:1.2;}
+		.interior p, h3 {max-width:500px;}
+		.interior h2{font-size:1.3em; text-transform:uppercase;color:#ffffff; padding:2px 0 2px 10px; width:75%;}
+		
+		ul.directions{margin-bottom:10px;}
+			ul .number{font-size:2em;}
+		
+		#profiles a{text-decoration:underline; color:teal;}
+			#profiles p{}
+		
+		#blogs a{text-decoration:underline; color:#800080;}
+			#blogs p{width:500px;}
+			#blogs h2{background-color:#800080;}
+		
+		#videos h2{background-color:#5077BE;}
+			#videos a{text-decoration:underline; color:#5077BE;}
+
+		#websites a{text-decoration:underline; color: lightcoral;}
+			#websites h2{background-color:lightcoral; }
+			#websites h3{text-transform:uppercase; margin-bottom:10px;}
+		
+		#textiles h2{background-color:yellowgreen;}
+			#textiles a{color:yellowgreen;}
+		
+		#food a{color:#8AADB8; text-decoration:underline;}
+			#food .hidden{display:none;}
+			#food .unhidden{display:block; max-width:500px;}
+			
+}
+
+
+
+// Portrait tablet to Landscape and Desktop
+@media (min-width:768px) and (max-width:979px){
+
+	
+}
+
+// Large Desktop
+@media (min-width:1200px){
+	
+}
+
+
+

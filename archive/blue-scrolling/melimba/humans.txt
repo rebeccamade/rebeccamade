@@ -1,0 +1,23 @@
+/* humanstxt.org */
+
+Site Produced by RebeccaMade
+
+
+/* TEAM */
+
+	Site Design: Melissa Wood 
+	Location: McKinney, TX
+
+  Front-End Develpoment: Rebecca Snyder
+  Site: http://www.rebeccamade.com
+  Twitter: @rebeccamade
+  Location: Dallas,TX
+
+/* SITE */
+  	Standards: HTML5, CSS3, 
+
+
+-favicon
+-about text
+-about image
+-which patterns in locked mode

@@ -1,0 +1,258 @@
+@charset "UTF-8";
+/* CSS Document */
+/*----------------------------------------------------------- general layout ---------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	/*background-color:#FFF;*/
+	font-family:Arial, Helvetica, sans-serif;
+	/*color:#000;*/
+	background-color:#000;
+	color:#000;
+	width:1060px;
+	height:600px;
+}
+
+#grandcontainer {
+	margin:0 auto;
+	width:1060px;
+	height:1100px;
+}
+
+@font-face {
+	font-family: 'JUICERegular';
+	src: url('juice_regular-webfont.eot');
+	src: local('☺'), url('juice_regular-webfont.woff') format('woff'), url('juice_regular-webfont.ttf') format('truetype'), url('juice_regular-webfont.svg#webfontvcfQJDGY') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+/*----------------------------------------------------------- header and navigation ---------------------------------------------------------------------*/
+	#pageheader {
+		padding:0 0 75px 0;
+		margin-left:25px;
+		margin-top:25px;
+	}
+
+	ul#globalnav {
+		list-style:none;
+		float:right;
+		font-family:"JUICERegular", Helvetica, sans-serif;
+		display:block;
+		width:102px;
+		height:21px;		
+}	
+	
+	ul#globalnav li1 a {
+		background-color:#F93;
+		display:block;
+		width:102px;
+		height:21px;
+		text-align:center;
+	font-family:"JUICERegular", Helvetica, sans-serif;	
+	text-decoration:none;
+	color:#FFF;
+	letter-spacing:.1em;
+	padding:5px 0;
+	font-size:1.2em;
+}
+
+	ul#globalnav li2 a {
+		background-color:#069;
+		display:block;
+		width:102px;
+		height:21px;
+		text-align:center;
+	font-family:"JUICERegular", Helvetica, sans-serif;	
+	text-decoration:none;
+	color:#FFF;
+	letter-spacing:.1em;
+	padding:5px 0;
+	font-size:1.2em;
+}
+
+	ul#globalnav li3 a {
+		background-color:#F33;
+		display:block;
+		width:102px;
+		height:21px;
+		text-align:center;
+	font-family:"JUICERegular", Helvetica, sans-serif;	
+	text-decoration:none;
+	color:#FFF;
+	letter-spacing:.1em;
+	padding:5px 0;
+	font-size:1.2em;
+}
+
+ul#globalnav li4 a {
+		background-color:#093;
+		display:block;
+		width:102px;
+		height:21px;
+		text-align:center;
+		font-family:"JUICERegular", Helvetica, sans-serif;	
+		text-decoration:none;
+		color:#FFF;
+		letter-spacing:.1em;
+		padding:5px 0;
+		font-size:1.2em;
+}	
+
+.headerleftcol {
+		float:left;	
+	}
+	
+ul#globalnav li1 a:hover {
+	width:121px;
+	height:21px;
+	margin:0 0 0 -20px;
+	display:block;
+	padding:5px 0;	
+}
+
+
+
+/*----------------------------------------------------------- middle content ---------------------------------------------------------------------*/
+
+#container {	
+	padding-top:75px;
+	padding-left:100px;
+	width:960px;
+	height:400px;
+	background-color:#FFF;
+	margin-top:49px;
+}
+
+h2 {
+	font-size:1em;
+	color:#000;
+}
+
+.listing {
+	font-family:'JUICERegular', Helvetica, sans-serif;
+	font-size:1.5em;
+}
+
+.leftcol {
+	float:left;
+	/*margin-top:20px;*/
+	margin-right:25px;	
+	width:400px;
+}
+
+.midcol {
+	float:left;
+	margin-right:300px;
+}
+
+.rightcol {
+	float:left;
+	margin-right:50px;
+	width:400px;
+}
+
+/*------------------------- home --------------------	*/
+
+.homerightcol {
+	float:right;
+	margin-right:150px;
+}
+
+.homemidcol {
+	float:left;
+	margin-right:100px 300px 0 20px;
+	
+	/*margin-top:20px;*/
+/*	width:300px;
+	padding-right:135px;*/
+}
+
+.homeleftcol {
+	float:left;
+	margin-top:300px;
+	margin-left:-170px;
+}
+/*}
+------------------------- shop --------------------	*/
+.title {
+	font-size:25px;
+}
+
+.solidline {
+	width:15px;
+	border:1px thin #036;
+	/*border-bottom:thin;
+	border-color:#666;*/
+}
+
+.subtitle {
+	font-style:italic;
+}
+
+.shopleftcol {
+	float:left;
+	/*border:1px red solid !important;*/
+	width:350px;
+	height:400px;
+}
+
+.shopmidcol {
+	float:left;
+	width:350px;
+/*	border:1px red solid !important;*/
+	
+}
+
+.shoprightcol {
+	float:right;
+	margin-right:25px;	
+	width:150px;
+	text-align:right;
+}
+
+/*----------------------------------------------------------- blog ---------------------------------------------------------------------*/
+.blogleftcol {
+	float:left;
+	width:100px;
+	
+}
+
+.blogmidcol {
+	float:left;
+	width:500px;
+	border:1px red solid !important;
+}
+
+.blogrightcol {
+	float:right;
+	width:200px;
+	margin-right:25px;
+	text-align:right;
+	
+}
+
+.paintfight {
+	float:right;
+	margin-left:-100px;
+}
+
+/*----------------------------------------------------------- bottom content ---------------------------------------------------------------------*/
+
+#footer {
+	float:right;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	clear:both;
+	margin-top:15px;
+}
