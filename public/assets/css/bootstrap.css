@@ -1,7 +1,11 @@
-.header{margin-bottom:50px;margin-top:20px}.header h6{font-style:italic;letter-spacing:1px;text-align:center}
+@import url(http://fonts.googleapis.com/css?family=Buenard:400,700|Jacques+Francois);
+.header{margin-bottom:50px;margin-top:20px}.header h6{font-style:italic;letter-spacing:1px;text-align:center;font-family:Georgia,"Times New Roman",Times,serif}
 .header h1{text-align:center;background:url('/assets/images/logo@2x.png') no-repeat;text-indent:-9999px;background-size:cover;height:100px;width:332px;margin:0 auto}
 .header nav{padding-top:10px}.header nav ul{list-style:none;text-align:center}.header nav ul li{display:inline;text-transform:uppercase;margin:0 17px}.header nav ul li a{color:#000;letter-spacing:1px}
-.thumbnails{text-align:center}.thumbnails .img-wrap{margin-bottom:40px}
+.thumbnails{text-align:center}.thumbnails .img-wrap{margin-bottom:40px;padding-right:10px}.thumbnails .img-wrap a:hover{text-decoration:none}.thumbnails .img-wrap a:hover img{opacity:.65}
+.thumbnails .img-wrap a h5{text-transform:uppercase;color:#555}
+.thumbnails .img-wrap a h4{color:#000;}
+.work-column{text-align:center}.work-column img{margin-bottom:30px;max-width:100%}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
 audio,canvas,video{display:inline-block}
 audio:not([controls]){display:none;height:0}
@@ -41,7 +45,7 @@ textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
 *,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 html{font-size:62.5%;-webkit-tap-highlight-color:rgba(0,0,0,0)}
-body{font-family:Georgia,"Times New Roman",Times,serif;font-size:14px;line-height:1.428571429;color:#333;background-color:#fff}
+body{font-family:'Buenard',serif;font-size:14px;line-height:1.428571429;color:#333;background-color:#fff}
 input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}
 button,input,select[multiple],textarea{background-image:none}
 a{color:#428bca;text-decoration:none}a:hover,a:focus{color:#2a6496;text-decoration:underline}
@@ -66,7 +70,7 @@ cite{font-style:normal}
 .text-left{text-align:left}
 .text-right{text-align:right}
 .text-center{text-align:center}
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:Georgia,"Times New Roman",Times,serif;font-weight:500;line-height:1.1}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,.h1 small,.h2 small,.h3 small,.h4 small,.h5 small,.h6 small{font-weight:normal;line-height:1;color:#999}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:'Buenard',serif;font-weight:500;line-height:1.1}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,.h1 small,.h2 small,.h3 small,.h4 small,.h5 small,.h6 small{font-weight:normal;line-height:1;color:#999}
 h1,h2,h3{margin-top:20px;margin-bottom:10px}h1 small,h2 small,h3 small{font-size:65%}
 h4,h5,h6{margin-top:10px;margin-bottom:10px}h4 small,h5 small,h6 small{font-size:75%}
 h1,.h1{font-size:36px}

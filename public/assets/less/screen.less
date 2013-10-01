@@ -4,10 +4,13 @@
 .header{
 	margin-bottom:50px;
 	margin-top:20px;
+	//background-color: CornflowerBlue; //PeachPuff; //IndianRed;
+	
 	h6{
 		font-style:italic;
 		letter-spacing:1px;
 		text-align:center;
+		font-family:Georgia, "Times New Roman", Times, serif;
 	}
 	h1{
 		text-align:center;
@@ -29,6 +32,7 @@
 				display:inline;
 				text-transform:uppercase;
 				margin:0 17px;
+				
 				a{
 					color:@black;
 					letter-spacing:1px;	
@@ -43,6 +47,40 @@
 	
 	.img-wrap{
 		margin-bottom:40px;
+		padding-right:10px;
+		
+		a{
+			&:hover{
+				text-decoration:none;
+				
+				img{
+					opacity:.65;
+				}
+			}
+			
+			h5{
+				text-transform:uppercase;
+				color:@gray;
+			}	
+			
+			h4{
+				color:@black;
+				
+/*				&:hover{
+					font-style:italic;
+					font-weight:bold;
+				}*/
+			}
+		}
+	}
+}
+
+.work-column{
+	text-align:center;
+	
+	img{
+		margin-bottom:30px;
+		max-width:100%;
 	}
 }
 
