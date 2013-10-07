@@ -1,6 +1,30 @@
-// some stuff about the page
+body{
+	.next{
+		background:url('/assets/images/arrows-5.png') no-repeat;
+		background-position:0px -128px;
+		width:100px;
+		height:60px;
+		background-size:100px 252px;
+		text-indent:-9999px;
+		
+		&:hover{
+			background-position:0 -191px;
+		}
+	}
 
-
+	.previous{
+		background:url('/assets/images/arrows-5.png') no-repeat;
+		background-position:0px 0px;
+		width:100px;
+		height:60px;
+		background-size:100px 252px;
+		text-indent:-9999px;
+		
+		&:hover{
+			background-position:0px -64px;
+		}
+	}
+}
 
 .header{
 	//border-bottom:dashed 1px @black;
@@ -54,20 +78,28 @@
 	margin:0 auto;
 }
 	
-a#back-to-top{
+a#back-to-top {
 	color:@white;
-	background-color:@black;
+	background-color:@gray-light;
 	padding:15px;
 	margin:0 auto;
 	text-align:center;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	
-	:hover{
+	&:hover{
 		font-style:italic;
+		text-decoration:none;
 	}
 }
 
 .thumbnails{
 	text-align:center;
+	
+	img{
+		margin:0 auto;
+	}
 	
 	.img-wrap{
 		margin-bottom:40px;
@@ -99,6 +131,22 @@ a#back-to-top{
 	}
 }
 
+.video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
 .work-column{	
 	p{
 		padding-bottom:20px;
@@ -119,4 +167,52 @@ a#back-to-top{
 		max-width:100%;
 	}	
 }
+
+////////////////////////////////////////////////////////////////////////////////////////////////   Extra small - phone
+
+@media (min-width:320px) and (max-width:768px){
+	.previous{
+		background-size:50px 126px !important;
+		width:50px !important;
+		height:30px !important;
+		background-position:0 -30px;
+	}
+	
+	.next{
+		background-size:50px 126px !important;
+		background-position:0px -64px !important;
+		width:50px !important;
+		height:30px !important;
+	}
+	
+	.header{
+		nav{
+			ul{
+				li{
+					margin:0 7px !important;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
