@@ -1,22 +1,30 @@
 @import url(http://fonts.googleapis.com/css?family=Buenard:400,700|Jacques+Francois);
 body .next{background:url('/assets/images/arrows-5.png') no-repeat;background-position:0 -128px;width:100px;height:60px;background-size:100px 252px;text-indent:-9999px}body .next:hover{background-position:0 -191px}
 body .previous{background:url('/assets/images/arrows-5.png') no-repeat;background-position:0 0;width:100px;height:60px;background-size:100px 252px;text-indent:-9999px}body .previous:hover{background-position:0 -64px}
+.col-center{margin:0 auto}
+a i{font-size:2.5em;text-align:center;color:#000;padding:0 15px;margin:0 auto;display:block}a i:hover{text-decoration:none;color:#555}
+.social{display:block;margin:0 auto;text-align:center}
 .header{margin-bottom:50px;margin-top:20px}.header h5{font-style:italic;letter-spacing:1px;text-align:center;font-family:Georgia,"Times New Roman",Times,serif;padding-bottom:10px}
 .header h1{text-align:center;background:url('/assets/images/circle_logo@2x.png') no-repeat;text-indent:-9999px;background-size:100%;height:150px;width:140px;margin:0 auto}
 .header nav{padding:10px 0}.header nav ul{list-style:none;text-align:center}.header nav ul li{display:inline;text-transform:uppercase;margin:0 17px}.header nav ul li a{color:#000;letter-spacing:1px}
 .line{border-bottom:dashed 1px #000;margin-top:5px}
 .col-center{margin:0 auto}
-a#back-to-top{color:#fff;background-color:#999;padding:15px;margin:0 auto;text-align:center;display:block;margin-top:30px;margin-bottom:30px}a#back-to-top:hover{font-style:italic;text-decoration:none}
+a#back-to-top{color:#fff;background-color:#999;padding:15px;margin:0 auto;text-align:center;display:block;margin-top:30px;margin-bottom:30px;}
 .thumbnails{text-align:center}.thumbnails img{margin:0 auto}
-.thumbnails .img-wrap{margin-bottom:40px;padding-right:10px}.thumbnails .img-wrap a:hover{text-decoration:none}.thumbnails .img-wrap a:hover img{opacity:.65}
-.thumbnails .img-wrap a h5{text-transform:uppercase;color:#555}
-.thumbnails .img-wrap a h4{color:#000;}
+.thumbnails .block{height:293px}
+.thumbnails .img-wrap{margin-bottom:50px;padding-right:10px}.thumbnails .img-wrap a:hover{text-decoration:none}.thumbnails .img-wrap a:hover img{opacity:.65}
+.thumbnails .img-wrap a h5{text-transform:uppercase;color:#555;font-size:15px}
+.thumbnails .img-wrap a h4{color:#000;font-size:17px;height:25px;}
 .video{position:relative;padding-bottom:56.25%;padding-top:25px;height:0}.video iframe{position:absolute;top:0;left:0;width:100%;height:100%}
+.instagram{margin:0 auto;display:block;padding:40px 0;text-align:center}
+.about-column{text-align:center}.about-column .img-responsive{margin:0 auto;padding-bottom:30px;max-width:100%}
+.about-column ul{margin-bottom:30px}
+.about-column a#resume{color:#fff;background-color:#555;text-align:center;padding:10px 15px;margin-top:30px 0;margin-bottom:30px}
 .work-column p{padding-bottom:20px}
 .work-column h2,.work-column h5{text-align:center}
 .work-column h5.last{border-bottom:1px dashed #999;padding-bottom:15px;margin-bottom:30px}
 .work-column .img-responsive{margin:0 auto;padding-bottom:30px;max-width:100%}
-@media (min-width:320px) and (max-width:768px){.previous{background-size:50px 126px !important;width:50px !important;height:30px !important;background-position:0 -30px} .next{background-size:50px 126px !important;background-position:0 -64px !important;width:50px !important;height:30px !important} .header nav ul li{margin:0 7px !important}}
+@media (min-width:320px) and (max-width:768px){.previous{background-size:50px 126px !important;width:40px !important;height:30px !important;background-position:0 -33px !important} .next{background-size:50px 126px !important;background-position:-9px -95px !important;width:50px !important;height:30px !important} i{padding:0 10px !important} .header nav ul li{margin:0 7px !important} .thumbnails .block{height:250px}}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
 audio,canvas,video{display:inline-block}
 audio:not([controls]){display:none;height:0}

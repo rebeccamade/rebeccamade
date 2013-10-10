@@ -26,6 +26,30 @@ body{
 	}
 }
 
+.col-center{
+	margin:0 auto;
+}
+
+a i{
+	font-size:2.5em;
+	text-align:center;
+	color:@black;
+	padding:0 15px;
+	margin:0 auto;
+	display:block;
+	
+	&:hover{
+		text-decoration:none;
+		color:@gray;
+	}
+}
+
+.social{
+	display:block;
+	margin:0 auto;
+	text-align:center;
+}
+
 .header{
 	//border-bottom:dashed 1px @black;
 	margin-bottom:50px;
@@ -78,6 +102,7 @@ body{
 	margin:0 auto;
 }
 	
+	
 a#back-to-top {
 	color:@white;
 	background-color:@gray-light;
@@ -88,10 +113,10 @@ a#back-to-top {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	
-	&:hover{
+/*	&:hover{
 		font-style:italic;
 		text-decoration:none;
-	}
+	}*/
 }
 
 .thumbnails{
@@ -101,9 +126,13 @@ a#back-to-top {
 		margin:0 auto;
 	}
 	
+	.block{
+		height:293px;
+	}
 	.img-wrap{
-		margin-bottom:40px;
+		margin-bottom:50px;
 		padding-right:10px;
+		
 		
 		a{
 			&:hover{
@@ -117,10 +146,13 @@ a#back-to-top {
 			h5{
 				text-transform:uppercase;
 				color:@gray;
+				font-size:15px;
 			}	
 			
 			h4{
 				color:@black;
+				font-size:17px;
+				height:25px;
 				
 /*				&:hover{
 					font-style:italic;
@@ -146,6 +178,35 @@ a#back-to-top {
 	}
 }
 
+.instagram{
+	margin:0 auto;
+	display:block;
+	padding:40px 0;
+	text-align:center;
+}
+
+.about-column{
+	.img-responsive{
+		margin:0 auto;
+		padding-bottom:30px;
+		max-width:100%;
+	}
+	
+	text-align:center;
+	
+	ul{
+		margin-bottom:30px;
+	}
+	
+	a#resume{
+		color:@white;
+		background-color:@gray;
+		text-align:center;
+		padding:10px 15px;
+		margin-top: 30px 0;
+		margin-bottom:30px;
+	}
+}
 
 .work-column{	
 	p{
@@ -173,16 +234,20 @@ a#back-to-top {
 @media (min-width:320px) and (max-width:768px){
 	.previous{
 		background-size:50px 126px !important;
-		width:50px !important;
+		width:40px !important;
 		height:30px !important;
-		background-position:0 -30px;
+		background-position:0 -33px !important;
 	}
 	
 	.next{
 		background-size:50px 126px !important;
-		background-position:0px -64px !important;
+		background-position:-9px -95px !important;
 		width:50px !important;
 		height:30px !important;
+	}
+	
+	i{
+		padding:0 10px !important;
 	}
 	
 	.header{
@@ -194,25 +259,10 @@ a#back-to-top {
 			}
 		}
 	}
+	
+	.thumbnails{
+		.block{
+			height:250px;
+		}
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
