@@ -26,28 +26,33 @@ body{
 	}
 }
 
-.col-center{
-	margin:0 auto;
+em{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
 }
 
-a i{
-	font-size:2.5em;
-	text-align:center;
-	color:@black;
-	padding:0 15px;
+.col-center{
 	margin:0 auto;
-	display:block;
-	
-	&:hover{
-		text-decoration:none;
-		color:@gray;
-	}
 }
 
 .social{
 	display:block;
 	margin:0 auto;
 	text-align:center;
+	
+	a i{
+		font-size:2.5em;
+		text-align:center;
+		color:@black;
+		padding:0 15px;
+		margin:0 auto;
+		display:block;
+
+		&:hover{
+			text-decoration:none;
+			color:@gray;
+		}
+	}
 }
 
 .header{
@@ -104,19 +109,16 @@ a i{
 	
 	
 a#back-to-top {
-	color:@white;
-	background-color:@gray-light;
+	color:@black;
+	//background-color:@gray-light;
 	padding:15px;
 	margin:0 auto;
 	text-align:center;
 	display: block;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	
-/*	&:hover{
-		font-style:italic;
-		text-decoration:none;
-	}*/
+	border-top:1px dashed @gray-light;
+	border-bottom:1px dashed @gray-light;
 }
 
 .thumbnails{
@@ -186,6 +188,8 @@ a#back-to-top {
 }
 
 .about-column{
+	margin-bottom:30px !important;
+	
 	.img-responsive{
 		margin:0 auto;
 		padding-bottom:30px;
@@ -199,12 +203,12 @@ a#back-to-top {
 	}
 	
 	a#resume{
-		color:@white;
-		background-color:@gray;
+		color:@black;
 		text-align:center;
 		padding:10px 15px;
 		margin-top: 30px 0;
-		margin-bottom:30px;
+		border:1px black dashed;
+		text-transform:uppercase;
 	}
 }
 
@@ -232,29 +236,54 @@ a#back-to-top {
 ////////////////////////////////////////////////////////////////////////////////////////////////   Extra small - phone
 
 @media (min-width:320px) and (max-width:768px){
+	
+body{
+	
+	.header{
+		margin-bottom:10px;
+		margin-top:0px;
+		
+		h5{
+			padding-bottom:0px;
+		}
+		
+		nav{
+			padding:0px;
+		}
+	}
+	
+	.col-xs-2{
+		padding-left:5px;
+		padding-right:23px;
+	}
+
 	.previous{
-		background-size:50px 126px !important;
-		width:40px !important;
-		height:30px !important;
-		background-position:0 -33px !important;
+		background-size:50px 126px;
+		width:40px;
+		height:30px;
+		background-position:0 -33px;
 	}
 	
 	.next{
-		background-size:50px 126px !important;
-		background-position:-9px -95px !important;
-		width:50px !important;
-		height:30px !important;
+		background-size:50px 126px;
+		background-position:-9px -95px;
+		width:50px;
+		height:30px;
+	}
+	
+	h2{
+		margin-top:5px;
 	}
 	
 	i{
-		padding:0 10px !important;
+		padding:0 10px;
 	}
 	
 	.header{
 		nav{
 			ul{
 				li{
-					margin:0 7px !important;
+					margin:0 7px;
 				}
 			}
 		}
@@ -265,4 +294,5 @@ a#back-to-top {
 			height:250px;
 		}
 	}
+}
 }
